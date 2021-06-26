@@ -3,7 +3,3 @@ name = "rustmal"
 version = "0.0.1"
 
 [dependencies]
-
-[[bin]]
-name = "step0_repl"
-path = "step0_repl.rs"
