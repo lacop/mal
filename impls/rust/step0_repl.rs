@@ -1,5 +1,21 @@
 use std::io::{self, BufRead, Write};
 
+fn read(input: String) -> String {
+    input
+}
+
+fn eval(input: String) -> String {
+    input
+}
+
+fn print(input: String) -> String {
+    input
+}
+
+fn rep(input: String) -> String {
+    print(eval(read(input)))
+}
+
 fn main() {
     loop {
         print!("user> ");
@@ -9,6 +25,6 @@ fn main() {
         if len == 0 {
             break
         }
-        println!("{}", buf);
+        println!("{}", rep(buf));
     }
 }
